@@ -15,6 +15,12 @@ function Cards() {
               label='Teknikguide'
               path='/teknikguide'
             />
+            <CardItem
+              src="images/quiz.jpg"
+              text="Något för den quizsugne"
+              label='Quiz'
+              path='/quiz'
+            />
           </ul>
         </div>
       </div>
