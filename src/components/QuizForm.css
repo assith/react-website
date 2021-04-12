@@ -1,0 +1,60 @@
+.form-container {
+  /* background: url('../public/images/IMGP2302.jpg') center center/cover no-repeat; */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.form-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.form-paragraph {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  text-align;: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-btns {
+  margin-top: 32px;
+}
+
+.form-btns .btn {
+  margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .form-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .form-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
