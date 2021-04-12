@@ -6,7 +6,7 @@ import './Section.css';
 function Section() {
   return (
     <div className='section-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted/>
+      <video src='/videos/video-4.mp4' autoPlay loop muted/>
       <h1>sidwall.se</h1>
       <p>Hade gött!</p>
       <div className="section-btns">
