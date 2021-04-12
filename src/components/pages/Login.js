@@ -5,7 +5,7 @@ import Footer from '../Footer';
 function Login() {
   return (
     <>
-      <h1 className="login">Login</h1>
+      <h1 className="login">Logga in</h1>
       <Footer />
     </>
   );

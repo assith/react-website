@@ -93,6 +93,13 @@ h1 {
   padding: 20px 30px 30px;
 }
 
+.cards__item__title {
+  color: #252e48;
+  font-size: 25px;
+  line-height: 24px;
+  margin-bottom: 18px;;
+}
+
 .cards__item__text {
   color: #252e48;
   font-size: 18px;

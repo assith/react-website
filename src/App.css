@@ -10,14 +10,14 @@
 .quiz,
 .login {
   display: flex;
-  height: 90vh;
+  height: 45vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .teknikguide {
-  background-image: url('./public/images/IMGP3902.jpg');
+  background-image: url('./public/images/teknik-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .quiz {
-  background-image: url('./public/images/IMGP2115.jpg');
+  background-image: url('./public/images/questions.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
