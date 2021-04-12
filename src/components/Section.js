@@ -7,7 +7,7 @@ function Section() {
   return (
     <div className='section-container'>
       <video src='/videos/video-2.mp4' autoPlay loop muted/>
-      <h1>Välkommen till sidwall.se</h1>
+      <h1>sidwall.se</h1>
       <p>Hade gött!</p>
       <div className="section-btns">
         <Button 

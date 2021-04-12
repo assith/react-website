@@ -41,7 +41,7 @@ function Navbar() {
                   className='nav-links' 
                   onClick={closeMobileMenu}
                 >
-                    Home
+                    Hem
                 </Link>
             </li>
             <li className='nav-item'>
