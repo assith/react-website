@@ -1,12 +1,12 @@
 import React from 'react'
 import './Footer.css'
-import { Button } from './Button'
+// import { Button } from './Button'
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Text vare här
         </p>
@@ -19,7 +19,7 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
@@ -34,7 +34,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <small className="website-rights">TJENA</small>
+      <small className="website-rights"></small>
     </div>
   )
 }
