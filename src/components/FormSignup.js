@@ -1,8 +1,11 @@
 import React from 'react'
 import { Button } from './Button'
-import './Form.css'
+// import './Form.css'
+import useForm from './useForm'
 
 function FormSignup() {
+  const { handleChange, values } = useForm();
+
   return (
     <div className="form-container">
       <div className="form-content-right">
@@ -19,7 +22,10 @@ function FormSignup() {
                 type="text" 
                 name="username" 
                 className="form-input"
-                placeholder="Användarnamn"/>
+                placeholder="Användarnamn"
+                value={values.username}
+                onChange={handleChange}
+              />
           </div>
           <div className="form-inputs">
             <label htmlFor="email" className="form-label">
@@ -27,10 +33,13 @@ function FormSignup() {
             </label>
               <input
                 id="email"
-                type="text"
+                type="email"
                 name="email"
                 className="form-input"
-                placeholder="Email" />
+                placeholder="Email"
+                value={values.email}
+                onChange="{handleChange}"
+              />
           </div>
           <div className="form-inputs">
             <label htmlFor="password" className="form-label">
@@ -38,10 +47,13 @@ function FormSignup() {
             </label>
             <input
               id="password"
-              type="text"
+              type="password"
               name="password"
               className="form-input"
-              placeholder="Lösenord" />
+              placeholder="Lösenord"
+              value={values.password}
+              onChange="{handleChange}"
+            />
           </div>
           <div className="form-inputs">
             <label htmlFor="password2" className="form-label">
@@ -49,10 +61,13 @@ function FormSignup() {
             </label>
             <input
               id="password2"
-              type="text"
+              type="password"
               name="password2"
               className="form-input"
-              placeholder="Lösenord igen" />
+              placeholder="Lösenord igen"
+              value={values.password2}
+              onChange="{handleChange}"
+            />
           </div>
           <Button
             className='form-input-btn'
@@ -63,7 +78,7 @@ function FormSignup() {
             Registrera
           </Button>
           <span className="form-input-login">
-            Har du redan ett konto? Logga in <a href="#">här</a><span>.</span>
+            Har du redan ett konto? Logga in <a href="/">här</a><span>.</span>
           </span>
         </form>
       </div>

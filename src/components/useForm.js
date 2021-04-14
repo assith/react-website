@@ -9,14 +9,14 @@ const useForm = () => {
   })
   const [errors, setErrors] = useState({})
 
-  const { name, value } = e.target
   const handleChange = e => {
+    const { name, value } = e.target
     setValues({
       ...values,
       [name]: value
     })
   }
-  return  {handleChange}
+  return  { handleChange, values }
 }
 
 export default useForm;
