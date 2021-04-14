@@ -10,7 +10,7 @@
 .quiz,
 .login {
   display: flex;
-  height: 45vh;
+  height: 30vh;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
@@ -22,7 +22,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 70px;
 }
 
 .quiz {
@@ -31,7 +31,7 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 70px;
 }
 
 .login {
@@ -40,5 +40,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 70px;
 }
