@@ -1,15 +1,16 @@
 import React from 'react'
-import { Button } from './Button'
-// import './Form.css'
+// import { Button } from './Button'
+import './SignupForm.css'
 import useForm from './useForm'
+import validate from './validateInfo'
 
-function FormSignup() {
-  const { handleChange, values } = useForm();
+function FormSignup(submitForm) {
+  const { handleChange, values, handleSubmit, errors } = useForm(submitForm, validate);
 
   return (
     <div className="form-container">
       <div className="form-content-right">
-        <form className="form">
+        <form className="form" onSubmit={handleSubmit}>
           <h1>
             Har du ingen inloggning kan du ansöka om det i formuläret nedan.
           </h1>
@@ -26,6 +27,7 @@ function FormSignup() {
                 value={values.username}
                 onChange={handleChange}
               />
+              {errors.username && <p>{errors.username}</p>}
           </div>
           <div className="form-inputs">
             <label htmlFor="email" className="form-label">
@@ -38,8 +40,9 @@ function FormSignup() {
                 className="form-input"
                 placeholder="Email"
                 value={values.email}
-                onChange="{handleChange}"
+                onChange={handleChange}
               />
+            {errors.email && <p>{errors.email}</p>}
           </div>
           <div className="form-inputs">
             <label htmlFor="password" className="form-label">
@@ -52,8 +55,9 @@ function FormSignup() {
               className="form-input"
               placeholder="Lösenord"
               value={values.password}
-              onChange="{handleChange}"
+              onChange={handleChange}
             />
+            {errors.password && <p>{errors.password}</p>}
           </div>
           <div className="form-inputs">
             <label htmlFor="password2" className="form-label">
@@ -66,17 +70,16 @@ function FormSignup() {
               className="form-input"
               placeholder="Lösenord igen"
               value={values.password2}
-              onChange="{handleChange}"
+              onChange={handleChange}
             />
+            {errors.password2 && <p>{errors.password2}</p>}
           </div>
-          <Button
+          <button
             className='form-input-btn'
             type='submit'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
           >
             Registrera
-          </Button>
+          </button>
           <span className="form-input-login">
             Har du redan ett konto? Logga in <a href="/">här</a><span>.</span>
           </span>

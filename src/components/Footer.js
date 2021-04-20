@@ -22,15 +22,17 @@ function Footer() {
       </section> */}
       <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div className="footer-link-items">
+          {/* <div className="footer-link-items">
             <h2>About us</h2>
             <Link to='/login'>How it works</Link>
             <Link to='/teknikguide'>Our tech guide</Link>
-          </div>
+          </div> */}
           <div className="footer-link-items">
-            <h2>Contact us</h2>
-            <Link to='/login'>How it works</Link>
-            <Link to='/teknikguide'>Our tech guide</Link>
+            {/* <h2>Kontakt</h2> */}
+            {/* <Link to='/login'>How it works</Link>
+            <Link to='/teknikguide'>Our tech guide</Link> */}
+            {/* <p>astrid@sidwall.se</p> */}
+
           </div>
         </div>
       </div>
