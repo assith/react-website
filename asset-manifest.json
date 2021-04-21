@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-website/static/css/main.b26e1372.chunk.css",
+    "main.js": "/react-website/static/js/main.6382ed9b.chunk.js",
+    "main.js.map": "/react-website/static/js/main.6382ed9b.chunk.js.map",
+    "runtime-main.js": "/react-website/static/js/runtime-main.f90db086.js",
+    "runtime-main.js.map": "/react-website/static/js/runtime-main.f90db086.js.map",
+    "static/js/2.9ed04a0a.chunk.js": "/react-website/static/js/2.9ed04a0a.chunk.js",
+    "static/js/2.9ed04a0a.chunk.js.map": "/react-website/static/js/2.9ed04a0a.chunk.js.map",
+    "static/js/3.bcc87731.chunk.js": "/react-website/static/js/3.bcc87731.chunk.js",
+    "static/js/3.bcc87731.chunk.js.map": "/react-website/static/js/3.bcc87731.chunk.js.map",
+    "index.html": "/react-website/index.html",
+    "static/css/main.b26e1372.chunk.css.map": "/react-website/static/css/main.b26e1372.chunk.css.map",
+    "static/js/2.9ed04a0a.chunk.js.LICENSE.txt": "/react-website/static/js/2.9ed04a0a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-website/static/media/teknik-2.91677837.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f90db086.js",
+    "static/js/2.9ed04a0a.chunk.js",
+    "static/css/main.b26e1372.chunk.css",
+    "static/js/main.6382ed9b.chunk.js"
+  ]
+}
