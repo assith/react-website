@@ -8,17 +8,17 @@ function CvSection() {
     <div className='section-container'>
       <video src='/videos/video-6.mp4' autoPlay loop muted />
       <div className="section-text">
-        <h1>Astrid Sidwall Thygesen</h1>
+        <h1>Astrid</h1>
         <div className="section-about">
           <p>
-            Jag brinner för programmering och naturen, brädspel och öl. 
+            
           </p>
-          <p>Gillar stora bokstäver, kalhyggen och rågbröd.</p>
-          <p>Nedan följer min meritlista för den som är intresserad. Väl bekomme!</p>
+          <p></p>
+          <p></p>
         </div>
         <br/><br/>
         <div className="section-merits">
-          <h1>Meriter</h1>
+          <h1></h1>
         </div>
         {/* <div className="section-btns">
           <Button

@@ -5,7 +5,7 @@ import './Cards.css'
 function TechCards() {
   return (
     <div className='cards'>
-      <h1>Kolla här: </h1>
+      <h1></h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -34,7 +34,7 @@ function TechCards() {
           <ul className="cards__items">
             <CardItem
               src="images/teknik.jpg"
-              title="Hur googlar jag på ett recept?"
+              title="Hur tar jag bort vänner på facebook?"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -46,8 +46,12 @@ function TechCards() {
             />
             <CardItem
               src="images/quiz.jpg"
-              title="Hur tar jag bort en app på mobiltelefonen?"
-              text="Hjälp med mobiltelefonen"
+              title="Datortips"
+              text="Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum."
               label='Mobilhjälp'
               path='/quiz'
             />

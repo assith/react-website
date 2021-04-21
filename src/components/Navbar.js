@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
-import { Button } from './Button.js';
+// import { Button } from './Button.js';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -31,11 +31,11 @@ function Navbar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             sidwall.se
           </Link>
-          <div className="menu-icon" onClick={handleClick}>
+          {/* <div className="menu-icon" onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
-          </div>
+          </div> */}
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
                 <Link 
                   to='/' 
                   className='nav-links' 
@@ -44,7 +44,7 @@ function Navbar() {
                     Hem
                 </Link>
             </li>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
                 <Link 
                   to='/teknikguide' 
                   className='nav-links' 
@@ -52,7 +52,7 @@ function Navbar() {
                 >
                     Teknikguide
                 </Link>
-            </li> */}
+            </li>
             <li className='nav-item'>
                 <Link 
                   to='/quiz' 
@@ -62,7 +62,7 @@ function Navbar() {
                     Quiz
                 </Link>
             </li>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
               <Link
                 to='/cv'
                 className='nav-links'
@@ -70,7 +70,7 @@ function Navbar() {
               >
                 CV
                 </Link>
-            </li> */}
+            </li>
             <li className=''>
                 <Link 
                   to='/login'
@@ -79,9 +79,9 @@ function Navbar() {
                 >
                     Logga in
                 </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Logga in</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>Logga in</Button>} */}
         </div>
       </nav>
     </>
