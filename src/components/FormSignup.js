@@ -1,11 +1,13 @@
 import React from 'react'
 // import { Button } from './Button'
-import './SignupForm.css'
+// import './SignupForm.css'
 import useForm from './useForm'
 import validate from './validateInfo'
 
 function FormSignup(submitForm) {
   const { handleChange, values, handleSubmit, errors } = useForm(submitForm, validate);
+
+  console.log(React.version)
 
   return (
     <div className="form-container">

@@ -44,15 +44,15 @@ function Navbar() {
                     Hem
                 </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
                 <Link 
                   to='/teknikguide' 
                   className='nav-links' 
                   onClick={closeMobileMenu}
                 >
-                    Morsans teknikguide
+                    Teknikguide
                 </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
                 <Link 
                   to='/quiz' 
@@ -62,7 +62,7 @@ function Navbar() {
                     Quiz
                 </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/cv'
                 className='nav-links'
@@ -70,7 +70,7 @@ function Navbar() {
               >
                 CV
                 </Link>
-            </li>
+            </li> */}
             <li className=''>
                 <Link 
                   to='/login'

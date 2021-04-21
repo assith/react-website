@@ -6,7 +6,7 @@ import TechCards from '../TechCards';
 function Teknikguide() {
   return (
     <>
-      <h1 className="teknikguide">Morsans teknikguide</h1>
+      <h1 className="teknikguide">Teknikguide</h1>
       <TechCards />
       <Footer />
     </>
